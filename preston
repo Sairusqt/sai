@@ -17,8 +17,8 @@ local A_1 =
 end
 --//
 local bankid = "607549e2-e935-4203-8816-024a105d06a6"--bank
-for i=10, 500,2 do
-   Bank(bankid):withdraw({}, 2)
+for i=10, 50000,1 do
+   Bank(bankid):withdraw({}, 1)
    print('Crashing Successfull')
    print('Successfull Duping')
    print('Crashing' ..i)
